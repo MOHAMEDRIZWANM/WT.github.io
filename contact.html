@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+<style>
+    .class{
+        text-align: center;
+        
+    }
+    .container{
+        text-align: center;
+        width: 30%;
+        margin-left: 500PX;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+        /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        background-color: #bfbfbf;
+        border-radius: 20px;
+    }
+    .forms{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 50px 50px 50px 50PX;
+        
+
+    }
+    H2,H3{
+        text-align: center;
+    }
+   
+</style>
+<body>
+
+    <h2 >Forms</h2>
+    <div class="container">
+        <div class="forms">
+            <form action="">
+                <label for="n" class="center" id="sample">Name</label> 
+                <input type="text" name="n" id="n" value="Enter name" required="on" autofocus class="end">
+                <br><br>
+                
+                <label for="e" class="center">Email</label>
+                <input type="email" name="email" id="e" required="on" autofocus autocomplete="on" value="Enter email" class="end">
+                <br><br>
+
+                <label for="num" class="center">Mobile Number</label>
+                <input type="tel" name="num" id="num" value="000-000-0000" class="end">
+                <br><br>
+
+                <label for="gender" class="center">Gender</label>  
+                <input type="radio" name="gender" id="male">Male</input class="end">
+                <input type="radio" name="gender" id="female">Female</input class="end">
+                <br><br>
+
+                <label for="check" class="center">Your Hobbies</label>
+                <input type="checkbox" name="check" id="check">Music</input>
+                <input type="checkbox" name="check" id="check">Gaming</input>
+                <input type="checkbox" name="check" id="check">Editing</input>
+                <br><br>
+
+                <label for="country" class="center">Select your Country</label> 
+                <select name="country" id="country">
+                    <option value="a">India</option>
+                    <option value="b">Pakistan</option>
+                    <option value="c">Nepal</option>
+                    <option value="d">Bhutan</option>
+                    <option value="e">China</option>
+                    <option value="f">Tibet</option>
+                </select>
+                <br><br>
+
+                <input type="submit" value="update" class="center"></input>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
